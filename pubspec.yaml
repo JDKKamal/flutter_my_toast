@@ -1,0 +1,21 @@
+name: flutter_my_toast
+description: A new Flutter plugin.
+version: 0.0.1
+author: "kamlesh <kamal.lakhan56@gmail.com>"
+homepage: "https://github.com/JDKKamal/flutter_toast"
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  plugin:
+    androidPackage: com.jdkgroup.flutter_my_toast
+    pluginClass: FlutterMyToastPlugin
